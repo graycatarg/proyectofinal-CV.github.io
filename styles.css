@@ -1,0 +1,39 @@
+:root{
+    font-family: Arial, sans-serif;
+    background-color: #f7e8e8;
+			margin: 0;
+			padding: 0;
+}
+
+body {
+    font-family: var(--font);
+}
+
+header, section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{background-color: rgb(144, 241, 241);
+    border-color: rgb(109, 109, 248);
+    padding-top: 16px;
+    padding-left: 16px;
+
+}
+
+header {
+    display: flex;
+}
+
+img {
+    margin-right: 50px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display:flex ;
+}
